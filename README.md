@@ -1,3 +1,3 @@
-Startrh - FrontEnd - ng serve ou qualquer comando semelhante
+StartRhVideo - FrontEnd Angular - ng serve ou qualquer comando semelhante
  <br />
-Server - Backend - MySQL.js
+Server - Backend NodeJS - MySQL.js
