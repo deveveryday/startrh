@@ -27,6 +27,11 @@ export class LoginComponent implements OnInit {
             username: ['', Validators.required],
             password: ['', Validators.required]
         });
+
+        if (this.accountService.userValue) {
+            this.router.navigateByUrl('filmes');
+        }
+        
     }
 
  
