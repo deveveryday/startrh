@@ -1,4 +1,4 @@
-# Rental Locadora App
+# STARtrh Locadora App
 
 ### Front - Angular
 
