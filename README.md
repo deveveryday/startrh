@@ -10,7 +10,7 @@ ng serve ou qualquer comando semelhante
 
 ### Back - NodeJS - MySQL.js
 
-Banco de dados MySQL
+MySQL
 
 npm run mysql.js
 
