@@ -1,0 +1,19 @@
+<div *ngIf="filme">
+    <h2>{{filme.name | uppercase}} Details</h2>
+    <div><span>id: </span>{{filme.id}}</div>
+    <div>
+      <label for="filme-name">Movie name: </label>
+      <input id="filme-name" [(ngModel)]="filme.name" placeholder="Filme name"/>
+    </div>
+    <div>
+      <label for="filme-count">Available: </label>
+      <input id="filme-count" [(ngModel)]="filme.count" readonly/>
+    </div>
+    <button type="button" (click)="goBack()">go back</button>
+    <span *ngIf="!filme.rented">
+      <button type="button" (click)="save()">Rent</button>
+    </span>
+    <span *ngIf="filme.rented">
+      <button type="button" (click)="devolve()">Give Back</button>
+    </span>
+  </div>

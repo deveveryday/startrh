@@ -1,0 +1,32 @@
+<h2></h2>
+
+<div>
+  <!-- <label for="new-filme">name: </label>
+  <input id="new-filme" #filmeName /> -->
+
+  <!-- <button type="button" class="add-button" (click)="add(filmeName.value); filmeName.value=''">
+    Add movie
+  </button> -->
+
+  <button type="button" class="add-button" (click)="checkRented();">
+    List Rented
+  </button>
+  <button type="button" class="add-button" (click)="getFilmes();">
+    List All
+  </button>
+  <button type="button" class="add-button" (click)="downloadFile();">
+    Download CSV
+  </button>
+  
+</div>
+
+<ul class="filmes">
+  <li *ngFor="let filme of filmes">
+    <a routerLink="/detail/{{filme.id}}">
+      <span class="badge">{{filme.count}}</span> {{filme.name}} 
+    </a>
+    <!-- <button type="button" class="delete" title="delete filme" 
+      (click)="delete(filme)">x</button> -->
+  </li>
+  
+</ul>

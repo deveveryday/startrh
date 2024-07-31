@@ -1,0 +1,9 @@
+<h1>{{title}}</h1>
+<nav *ngIf="isLoggedIn">
+  <a routerLink="/dashboard">Trends</a>
+  <a routerLink="/filmes">Movies</a>
+  <a (click)="logout()" *ngIf="isLoggedIn">logout</a>
+</nav>
+
+<router-outlet></router-outlet>
+<!-- <app-messages></app-messages> -->

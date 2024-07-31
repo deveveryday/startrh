@@ -1,0 +1,7 @@
+<h2>Top Movies</h2>
+<div class="filmes-menu">
+  <a *ngFor="let filme of filmes"
+  routerLink="/detail/{{filme.id}}">
+    {{filme.name}}
+  </a>
+</div>
