@@ -2,9 +2,12 @@
 
 ### Front - Angular
 
-http://localhost:4200/
+[localhost:4200](http://localhost:4200/)
 
-ng serve ou qualquer comando semelhante
+ng serve *ou qualquer comando semelhante*
+
+*login: startrh*
+*pass: 123456*
 
 
 
@@ -14,7 +17,7 @@ MySQL
 
 npm run mysql.js
 
-http://127.0.0.1:5000/login
+[127.0.0.1:5000](http://127.0.0.1:5000/login)
 
 
 
