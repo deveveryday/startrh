@@ -1,5 +1,10 @@
 # STARtrh Locadora App
 
+Sistema de locadora desenvolvido para enviar para empresa para seleção de desenvolvedores FullStack.
+Angular no Front-end
+NodeJSno Back-end
+O banco de dados é MySQL
+
 ### Front - Angular
 
 ng serve *ou qualquer comando semelhante*
